@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import styles from "./Counter.module.css";
 import { IconMinus } from "../assets/icons/IconMinus";
 import { IconAdd } from "../assets/icons/IconAdd";
+import SingleLight from "./SingleLight";
 
 const Counter = ({ text, count }) => {
   const [counter, setCounter] = useState(count);
