@@ -3,3 +3,8 @@
   margin: 0 auto;
   padding: 2rem;
 }
+
+.counters {
+  display: flex;
+  gap: 30px;
+}
